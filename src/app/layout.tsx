@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
 	title: "Boycott Israel",
 	description: "Boycott Israel",
+	manifest: "/manifest.json",
 };
 
 export default function RootLayout({
